@@ -1,0 +1,175 @@
+<!--
+Developed under a Research grant from NMEICT, MHRD 
+by 
+Amrita CREATE (Center for Research in Advanced Technologies for Education), 
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xliff version="1.0" xml:lang="en-US">
+
+  <file datatype="plaintext" original="CalculationOf_LamdamaxOfOrganicCompoundsUsing_WoodwardFieserRules.fla" source-language="EN">
+    <header></header>
+    <body>
+      <trans-unit id="001" resname="IDS_ALKYL">
+        <source>Alkyl substituent or Ring residue:</source>
+      </trans-unit>
+      <trans-unit id="002" resname="IDS_ALKYL_ALPHA">
+        <source>Alkyl substituent or Ring residue in α position:</source>
+      </trans-unit>
+      <trans-unit id="003" resname="IDS_ALKYL_BEETA">
+        <source>Alkyl substituent or Ring residue in β position:    </source>
+      </trans-unit>
+      <trans-unit id="004" resname="IDS_ALKYL_DELTA">
+        <source>Alkyl substituent or Ring residue in δ position:</source>
+      </trans-unit>
+      <trans-unit id="005" resname="IDS_ALKYL_GAMA">
+        <source>Alkyl substituent or Ring residue in γ position:</source>
+      </trans-unit>
+      <trans-unit id="006" resname="IDS_ALKYL_META">
+        <source>Alkyl group or ring residue in meta position:</source>
+      </trans-unit>
+      <trans-unit id="007" resname="IDS_ALKYL_ORTHO">
+        <source>Alkyl group or ring residue in ortho position:</source>
+      </trans-unit>
+      <trans-unit id="008" resname="IDS_ALKYL_PARA">
+        <source>Alkyl group or ring residue para position  in:</source>
+      </trans-unit>
+      <trans-unit id="009" resname="IDS_ALKYLGROUP">
+        <source>Alkyl group or ring residue position in:</source>
+      </trans-unit>
+      <trans-unit id="010" resname="IDS_ALP">
+        <source>α </source>
+      </trans-unit>
+      <trans-unit id="011" resname="IDS_AROMATIC">
+        <source>Aromatic </source>
+      </trans-unit>
+      <trans-unit id="012" resname="IDS_BASEVAL">
+        <source>Base Value:</source>
+      </trans-unit>
+      <trans-unit id="013" resname="IDS_BEET">
+        <source>β</source>
+      </trans-unit>
+      <trans-unit id="014" resname="IDS_CONJUGATE">
+        <source>Conjugate</source>
+      </trans-unit>
+      <trans-unit id="015" resname="IDS_CONTINUOUS">
+        <source>Continous</source>
+      </trans-unit>
+      <trans-unit id="016" resname="IDS_CONTROLS">
+        <source>Controls</source>
+      </trans-unit>
+      <trans-unit id="017" resname="IDS_CORRECT">
+        <source>Your answer is correct.</source>
+      </trans-unit>
+      <trans-unit id="018" resname="IDS_DELT">
+        <source>δ</source>
+      </trans-unit>
+      <trans-unit id="019" resname="IDS_DISCRETE">
+        <source>Discrete</source>
+      </trans-unit>
+      <trans-unit id="020" resname="IDS_DOUBLEBOND">
+        <source>Double bond conjugation:</source>
+      </trans-unit>
+      <trans-unit id="021" resname="IDS_DOUBLEBONDCONJ">
+        <source>conjugation:</source>
+      </trans-unit>
+      <trans-unit id="022" resname="IDS_EXOCYCLIC">
+        <source>Exocyclic double bonds:</source>
+      </trans-unit>
+      <trans-unit id="023" resname="IDS_GAM">
+        <source>γ</source>
+      </trans-unit>
+      <trans-unit id="024" resname="IDS_HOMODIENE">
+        <source>Homodiene compound:</source>
+      </trans-unit>
+      <trans-unit id="025" resname="IDS_KETONE">
+        <source>Ketone</source>
+      </trans-unit>
+      <trans-unit id="026" resname="IDS_LAMDA_MAX">
+        <source>λmax:</source>
+      </trans-unit>
+      <trans-unit id="027" resname="IDS_MOREVAR">
+        <source>More Variables</source>
+      </trans-unit>
+      <trans-unit id="028" resname="IDS_NEW_ALKYL">
+        <source>Alkyl substituent or Ring residue position in:</source>
+      </trans-unit>
+      <trans-unit id="029" resname="IDS_NEW_META">
+        <source>Meta</source>
+      </trans-unit>
+      <trans-unit id="030" resname="IDS_NEW_META1">
+        <source>Meta</source>
+      </trans-unit>
+      <trans-unit id="031" resname="IDS_NEW_ORTHO">
+        <source>Ortho</source>
+      </trans-unit>
+      <trans-unit id="032" resname="IDS_NEW_ORTHO1">
+        <source>Ortho</source>
+      </trans-unit>
+      <trans-unit id="033" resname="IDS_NEW_PARA">
+        <source>Para</source>
+      </trans-unit>
+      <trans-unit id="034" resname="IDS_NEW_POLAR">
+        <source>Polar groups position in:</source>
+      </trans-unit>
+      <trans-unit id="035" resname="IDS_PLOT">
+        <source>More variables</source>
+      </trans-unit>
+      <trans-unit id="036" resname="IDS_POLAR">
+        <source>Polar groups:</source>
+      </trans-unit>
+      <trans-unit id="037" resname="IDS_POLAR_ALPHA">
+        <source>Polar groups in α position:	</source>
+      </trans-unit>
+      <trans-unit id="038" resname="IDS_POLAR_BEETA">
+        <source>Polar groups in β position:	</source>
+      </trans-unit>
+      <trans-unit id="039" resname="IDS_POLAR_DELTA">
+        <source>Polar groups in δ position:</source>
+      </trans-unit>
+      <trans-unit id="040" resname="IDS_POLAR_GAMA">
+        <source>Polar groups in γ position:	</source>
+      </trans-unit>
+      <trans-unit id="041" resname="IDS_POLAR_META">
+        <source>Polar groups in meta position:</source>
+      </trans-unit>
+      <trans-unit id="042" resname="IDS_POLAR_NEW">
+        <source>Polar groups position in:</source>
+      </trans-unit>
+      <trans-unit id="043" resname="IDS_POLAR_ORTHO">
+        <source>Polar groups in ortho position:</source>
+      </trans-unit>
+      <trans-unit id="044" resname="IDS_POLAR_PARA">
+        <source>Polar groups in para position:</source>
+      </trans-unit>
+      <trans-unit id="045" resname="IDS_POLARNEW_META">
+        <source>Meta</source>
+      </trans-unit>
+      <trans-unit id="046" resname="IDS_POLARNEW_ORTHO">
+        <source>Ortho</source>
+      </trans-unit>
+      <trans-unit id="047" resname="IDS_POLARNEW_PARA">
+        <source>Para</source>
+      </trans-unit>
+      <trans-unit id="048" resname="IDS_RESET">
+        <source>Reset</source>
+      </trans-unit>
+      <trans-unit id="049" resname="IDS_SUBMIT">
+        <source>Submit</source>
+      </trans-unit>
+      <trans-unit id="050" resname="IDS_TITLE">
+        <source>Calculation of λmax of organic compounds  using Woodward Fieser Rules</source>
+      </trans-unit>
+      <trans-unit id="051" resname="IDS_VARIABLES">
+        <source>Variables</source>
+      </trans-unit>
+      <trans-unit id="052" resname="IDS_WRONG">
+        <source>Try again!</source>
+      </trans-unit>
+    </body>
+  </file>
+
+</xliff>

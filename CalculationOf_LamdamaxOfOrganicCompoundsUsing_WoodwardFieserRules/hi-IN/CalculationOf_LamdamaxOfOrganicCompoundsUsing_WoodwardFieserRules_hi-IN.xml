@@ -1,0 +1,175 @@
+<!--
+Developed under a Research grant from NMEICT, MHRD 
+by 
+Amrita CREATE (Center for Research in Advanced Technologies for Education), 
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xliff version="1.0" xml:lang="hi-IN">
+
+  <file datatype="plaintext" original="CalculationOf_LamdamaxOfOrganicCompoundsUsing_WoodwardFieserRules.fla" source-language="EN">
+    <header></header>
+    <body>
+      <trans-unit id="001" resname="IDS_ALKYL">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="002" resname="IDS_ALKYL_ALPHA">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="003" resname="IDS_ALKYL_BEETA">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="004" resname="IDS_ALKYL_DELTA">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="005" resname="IDS_ALKYL_GAMA">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="006" resname="IDS_ALKYL_META">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="007" resname="IDS_ALKYL_ORTHO">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="008" resname="IDS_ALKYL_PARA">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="009" resname="IDS_ALKYLGROUP">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="010" resname="IDS_ALP">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="011" resname="IDS_AROMATIC">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="012" resname="IDS_BASEVAL">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="013" resname="IDS_BEET">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="014" resname="IDS_CONJUGATE">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="015" resname="IDS_CONTINUOUS">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="016" resname="IDS_CONTROLS">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="017" resname="IDS_CORRECT">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="018" resname="IDS_DELT">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="019" resname="IDS_DISCRETE">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="020" resname="IDS_DOUBLEBOND">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="021" resname="IDS_DOUBLEBONDCONJ">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="022" resname="IDS_EXOCYCLIC">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="023" resname="IDS_GAM">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="024" resname="IDS_HOMODIENE">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="025" resname="IDS_KETONE">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="026" resname="IDS_LAMDA_MAX">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="027" resname="IDS_MOREVAR">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="028" resname="IDS_NEW_ALKYL">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="029" resname="IDS_NEW_META">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="030" resname="IDS_NEW_META1">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="031" resname="IDS_NEW_ORTHO">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="032" resname="IDS_NEW_ORTHO1">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="033" resname="IDS_NEW_PARA">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="034" resname="IDS_NEW_POLAR">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="035" resname="IDS_PLOT">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="036" resname="IDS_POLAR">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="037" resname="IDS_POLAR_ALPHA">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="038" resname="IDS_POLAR_BEETA">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="039" resname="IDS_POLAR_DELTA">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="040" resname="IDS_POLAR_GAMA">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="041" resname="IDS_POLAR_META">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="042" resname="IDS_POLAR_NEW">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="043" resname="IDS_POLAR_ORTHO">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="044" resname="IDS_POLAR_PARA">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="045" resname="IDS_POLARNEW_META">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="046" resname="IDS_POLARNEW_ORTHO">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="047" resname="IDS_POLARNEW_PARA">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="048" resname="IDS_RESET">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="049" resname="IDS_SUBMIT">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="050" resname="IDS_TITLE">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="051" resname="IDS_VARIABLES">
+        <source></source>
+      </trans-unit>
+      <trans-unit id="052" resname="IDS_WRONG">
+        <source></source>
+      </trans-unit>
+    </body>
+  </file>
+
+</xliff>
