@@ -1,0 +1,40 @@
+<!--
+Developed under a Research grant from NMEICT, MHRD 
+by 
+Amrita CREATE (Center for Research in Advanced Technologies for Education), 
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xliff version="1.0" xml:lang="en-US">
+
+  <file datatype="plaintext" original="Laser_Flash_Photometer.fla" source-language="EN">
+    <header></header>
+    <body>
+      <trans-unit id="001" resname="IDS_2_AMINOPHENOTHIAZINE">
+        <source>2-aminophenothiazine</source>
+      </trans-unit>
+      <trans-unit id="002" resname="IDS_ADJUSTWAVELENGTH">
+        <source>Adjust Wavelength:</source>
+      </trans-unit>
+      <trans-unit id="003" resname="IDS_LOADSAMPLE">
+        <source>Load sample</source>
+      </trans-unit>
+      <trans-unit id="004" resname="IDS_RESET">
+        <source>Reset</source>
+      </trans-unit>
+      <trans-unit id="005" resname="IDS_SELECTASAMPLESOLUTION">
+        <source>Select a sample solution</source>
+      </trans-unit>
+      <trans-unit id="006" resname="IDS_XANTHONE">
+        <source>xanthone</source>
+      </trans-unit>
+      <trans-unit id="007" resname="IDS_ZINCPHTHALOCYANINE">
+        <source>zinc phthalocyanine</source>
+      </trans-unit>
+    </body>
+  </file>
+
+</xliff>
