@@ -1,0 +1,107 @@
+<!--
+Developed under a Research grant from NMEICT, MHRD 
+by 
+Amrita CREATE (Center for Research in Advanced Technologies for Education), 
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+<?xml version="1.0"?> 
+
+<!DOCTYPE speciescollection SYSTEM "species.dtd"> 
+
+<speciescollection>
+	<species>
+		<id>1</id>
+		<name rep="H4Y">EDTA</name>
+		<state>liquid</state>
+		<p_state>1</p_state>
+		<type>ComplexingAgent</type>
+		<Molecular_weight UNIT="g mol?1">292.24</Molecular_weight>
+		<sign>0</sign>
+		<charge>0</charge>
+		<colour></colour>
+		<enthalpy></enthalpy>
+		<entropy></entropy>
+		<diss_species rep="H2Y2-" no="1">H2Y2-</diss_species>
+		<diss_species rep="H+" no="2">H+</diss_species>			
+	</species>	
+	<species>
+		<id>2</id>
+		<name rep="ZnSO47H2O">Analar Zinc Sulphate Crystals</name>
+		<state>liquid</state>
+		<type>MetalSolution</type>
+		<p_state>1</p_state>
+		<Molecular_weight UNIT="g mol?1">287.36</Molecular_weight>
+		<sign>0</sign>
+		<charge>0</charge>
+		<colour>0</colour>
+		<enthalpy>0</enthalpy>
+		<entropy>0</entropy>
+		<diss_species rep="M+" no="1">Zn2+</diss_species>
+		<diss_species rep="SO4-" no="2">SO4-</diss_species>			
+	</species>	
+	<species>
+		<id>3</id>
+		<name rep="MgSO47H2O">Analar Magnesium Sulphate Crystals</name>
+		<state>liquid</state>
+		<p_state>1</p_state>
+		<type>MetalSolution</type>
+		<Molecular_weight UNIT="g mol?1">287.36</Molecular_weight>
+		<sign>0</sign>
+		<charge>0</charge>
+		<colour>0</colour>
+		<enthalpy>0</enthalpy>
+		<entropy>0</entropy>
+		<diss_species rep="M+" no="1">Mg2+</diss_species>
+		<diss_species rep="SO4-" no="2">SO4-</diss_species>			
+	</species>	
+	<species>
+		<id>3</id>
+		<name rep="eromic black T">erichrome black T</name>
+		<state>liquid</state>
+		<p_state>1</p_state>
+		<type>Indicators</type>
+		<Molecular_weight UNIT="g mol?1">287.36</Molecular_weight>		
+		<enthalpy>0</enthalpy>
+		<entropy>0</entropy>
+		<diss_species rep="M+" no="1">Mg2+</diss_species>
+		<diss_species rep="SO4-" no="2">SO4-</diss_species>
+		<coloura name="wine red">100</coloura>
+		<colourb name="blue">001</colourb>
+		<conditiona>M+</conditiona>
+		<conditionb metal="Ca Ba Mg Zn Cd Mn Pb Hg" pha="7" phb="11"></conditionb>				
+	</species>	
+	<species>
+		<id>3</id>
+		<name rep="Ammonium purpurate">Ammonium purpurate</name>
+		<state>liquid</state>
+		<p_state>1</p_state>
+		<type>Indicators</type>
+		<Molecular_weight UNIT="g mol?1">287.36</Molecular_weight>		
+		<enthalpy>0</enthalpy>
+		<entropy>0</entropy>
+		<diss_species rep="M+" no="1">Mg2+</diss_species>
+		<diss_species rep="SO4-" no="2">SO4-</diss_species>
+		<coloura name="Violet">100</coloura>
+		<colourb name="blue">110</colourb>
+		<conditiona>M+</conditiona>
+		<conditionb metal="Ca Cu Co" pha="12"></conditionb>					
+	</species>	
+	<species>
+		<id>3</id>
+		<name rep="Catechol-Violet">Catechol-Violet</name>
+		<state>liquid</state>
+		<p_state>1</p_state>
+		<type>Indicators</type>
+		<Molecular_weight UNIT="g mol?1">287.36</Molecular_weight>		
+		<enthalpy>0</enthalpy>
+		<entropy>0</entropy>
+		<diss_species rep="M+" no="1">Mg2+</diss_species>
+		<diss_species rep="SO4-" no="2">SO4-</diss_species>
+		<coloura name="Violet">100</coloura>
+		<colourb name="Red">110</colourb>
+		<conditiona>M+</conditiona>
+		<conditionb metal="Mn Mg Fe Co Pb" pha="8" phb="10"></conditionb>					
+	</species>	
+</speciescollection>

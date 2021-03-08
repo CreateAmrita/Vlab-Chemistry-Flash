@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xliff version="1.0" xml:lang="en-US">
+
+  <file datatype="plaintext" original="adsortionIsothrem.fla" source-language="EN">
+    <header></header>
+    <body>
+      <trans-unit id="001" resname="IDS_OXALICACID">
+        <source>Oxalic acid :</source>
+      </trans-unit>
+    </body>
+  </file>
+
+</xliff>

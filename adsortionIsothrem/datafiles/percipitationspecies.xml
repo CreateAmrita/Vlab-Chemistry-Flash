@@ -1,0 +1,62 @@
+<!--
+Developed under a Research grant from NMEICT, MHRD 
+by 
+Amrita CREATE (Center for Research in Advanced Technologies for Education), 
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+<?xml version="1.0"?> 
+
+<!DOCTYPE speciescollection SYSTEM "species.dtd"> 
+<speciescollection>
+	<species>
+		<id>1</id>
+		<name>AgNO3</name>
+		<p_state>1</p_state>
+		<type>titrant</type>
+		<state>liquid</state>
+		<Molecular_weight></Molecular_weight>
+		<sign></sign>
+		<charge></charge>
+		<colour>000</colour>
+		<enthalpy></enthalpy>
+		<entropy></entropy>
+		<diss_species no="1" >Ag+</diss_species>
+		<diss_species no="1" >NO3-</diss_species>
+	</species>
+	<species>
+		<id>5</id>
+		<name>NaCl</name>
+		<p_state>1</p_state>
+		<type>titrate</type>
+		<state>liquid</state>
+		<Molecular_weight></Molecular_weight>
+		<sign>0</sign>
+		<charge>0</charge>
+		<colour>000</colour>
+		<enthalpy></enthalpy>
+		<entropy></entropy>
+		<diss_species no="1" >Na+</diss_species>
+		<diss_species no="1" >Cl-</diss_species>
+	</species>
+	<species>
+		<id>6</id>
+		<name>chromate(k2cr04)</name>
+		<p_state>1</p_state>
+		<type>Indicators</type>
+		<state>liquid</state>
+		<Molecular_weight></Molecular_weight>
+		<sign>0</sign>
+		<charge>0</charge>
+		<colour>000</colour>
+		<enthalpy></enthalpy>
+		<entropy></entropy>
+		<diss_species no="1" >Na+</diss_species>
+		<diss_species no="1" >Cl-</diss_species>
+		<coloura>100</coloura>
+		<colourb>110</colourb>
+		<conditiona>Cl-</conditiona>
+		<conditionb>Ag+</conditionb>	
+	</species>
+</speciescollection>

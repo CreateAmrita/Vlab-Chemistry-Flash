@@ -1,0 +1,145 @@
+<!--
+Developed under a Research grant from NMEICT, MHRD 
+by 
+Amrita CREATE (Center for Research in Advanced Technologies for Education), 
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+<?xml version="1.0"?> 
+
+<!DOCTYPE speciescollection SYSTEM "species.dtd"> 
+
+<speciescollection>
+	<species>
+		<id>1</id>
+		<name>KMNO4</name>
+		<type>oxidiser</type>
+		<p_state>5</p_state>
+		<state>liquid</state>
+		<Molecular_weight>18.0153</Molecular_weight>
+		<sign>0</sign>
+		<charge>0</charge>
+		<colour>101</colour>
+		<enthalpy>-285.83</enthalpy>
+		<entropy>69.91</entropy>
+		<diss_species>K+</diss_species>
+		<diss_species>MNO4-</diss_species>
+	</species>
+
+	<species>
+		<id>2</id>
+		<name>MNO4-</name>
+		<state>liquid</state>
+		<Molecular_weight>19.0227</Molecular_weight>
+		<sign>+</sign>
+		<charge>1</charge>
+		<colour></colour>
+		<enthalpy>-285.83</enthalpy>
+		<entropy>69.91</entropy>
+	</species>
+
+	<species>
+		<id>3</id>
+		<name>OH-</name>
+		<state>liquid</state>
+		<Molecular_weight>17.0079</Molecular_weight>
+		<sign>-</sign>
+		<charge>1</charge>
+		<colour></colour>
+		<enthalpy>-229.99</enthalpy>
+		<entropy>-10.75</entropy>	
+	</species>
+	<species>
+		<id>12</id>
+		<name>H2C2O4</name>
+		<type>reduser</type>
+		<p_state>1</p_state>
+		<state>aq</state>
+		<Molecular_weight>36.4606</Molecular_weight>
+		<sign>0</sign>
+		<charge>0</charge>
+		<colour>000</colour>
+		<enthalpy>-92.3</enthalpy>
+		<entropy>0000</entropy>	
+		<diss_species>H+</diss_species>
+		<diss_species>2co2</diss_species>		
+	</species>
+	<species>
+		<id>4</id>
+		<name>HCL</name>
+		<p_state>1</p_state>
+		<state>aq</state>
+		<Molecular_weight>36.4606</Molecular_weight>
+		<sign>0</sign>
+		<charge>0</charge>
+		<colour>#0000</colour>
+		<enthalpy>-92.3</enthalpy>
+		<entropy>0000</entropy>
+		<diss_species>H+</diss_species>
+		<diss_species>Cl-</diss_species>			
+	</species>
+	
+	<species>
+		<id>5</id>
+		<name>H+</name>
+		<state>aq</state>
+		<Molecular_weight>1.00739</Molecular_weight>
+		<sign>+</sign>
+		<charge>1</charge>
+		<colour></colour>
+		<enthalpy>0</enthalpy>
+		<entropy>0</entropy>			
+	</species>
+	<species>
+		<id>6</id>
+		<name>Cl-</name>
+		<state>aq</state>
+		<Molecular_weight>36.4606</Molecular_weight>
+		<sign>-</sign>
+		<charge>1</charge>
+		<colour></colour>
+		<enthalpy>-92.3</enthalpy>
+		<entropy></entropy>			
+	</species>
+	<species>
+		<id>7</id>
+		<name>NaOH</name>
+		<p_state>1</p_state>
+		<state>aq</state>
+		<Molecular_weight>39.9971</Molecular_weight>
+		<sign>0</sign>
+		<charge>0</charge>
+		<colour></colour>
+		<enthalpy>-92.3</enthalpy>
+		<entropy></entropy>
+		<diss_species>Na+</diss_species>	
+		<diss_species>OH-</diss_species>		
+	</species>	
+	<species>
+		<id>7</id>
+		<name>Na+</name>
+		<state>aq</state>
+		<Molecular_weight>22.9892207</Molecular_weight>
+		<sign>+</sign>
+		<charge>1</charge>
+		<colour></colour>
+		<enthalpy>-329.7</enthalpy>
+		<entropy>000</entropy>			
+	</species>	
+	<species>
+		<id>8</id>
+		<name>H2SO4</name>
+		<p_state>2</p_state>
+		<state>liquid</state>
+		<Molecular_weight>98.07848</Molecular_weight>
+		<sign>0</sign>
+		<charge>0</charge>
+		<colour></colour>
+		<enthalpy>-285.83</enthalpy>
+		<entropy>69.91</entropy>
+		<diss_species>H+</diss_species>
+		<diss_species>SO4-</diss_species>
+	</species>
+
+</speciescollection>

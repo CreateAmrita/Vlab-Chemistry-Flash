@@ -1,0 +1,76 @@
+<!--
+Developed under a Research grant from NMEICT, MHRD 
+by 
+Amrita CREATE (Center for Research in Advanced Technologies for Education), 
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+<?xml version="1.0"?> 
+<!DOCTYPE speciescollection SYSTEM "species.dtd"> 
+<speciescollection>
+
+	
+
+	
+	<species>
+		<id>1</id>
+		<type>Titrant</type>
+		<name>KMnO4</name>
+		<water_volm></water_volm>
+		<acid_volm></acid_volm>
+		<end_point></end_point>						
+	</species>		
+	<species>
+		<id>2</id>
+		<name>Oxalic acid</name>
+		<type>Titrate</type>
+		<water_volm></water_volm>
+		<acid_volm></acid_volm>
+		<end_point></end_point>					
+	</species>	
+		<species>
+		<id>3</id>
+		<name></name>
+		<type>Endpoint</type>
+		<water_volm>0</water_volm>
+		<acid_volm>50</acid_volm>
+		<end_point>35</end_point>
+	</species>
+	<species>
+		<id>4</id>
+		<name></name>
+		<type>Endpoint</type>
+		<water_volm>10</water_volm>
+		<acid_volm>40</acid_volm>
+		<end_point>27</end_point>
+	</species>
+		<species>
+		<id>5</id>
+		<name></name>
+		<type>Endpoint</type>
+		<water_volm>20</water_volm>
+		<acid_volm>30</acid_volm>
+		<end_point>18</end_point>
+	</species>	
+	<species>
+		<id>6</id>
+		<name></name>
+		<type>Endpoint</type>
+		<water_volm>30</water_volm>
+		<acid_volm>20</acid_volm>
+		<end_point>11</end_point>
+	</species>	
+		<species>
+		<id>6</id>
+		<name></name>
+		<type>Endpoint</type>
+		<water_volm>40</water_volm>
+		<acid_volm>10</acid_volm>
+		<end_point>4</end_point>
+	</species>
+</speciescollection>
+
+
+
