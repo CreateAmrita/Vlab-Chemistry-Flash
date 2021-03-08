@@ -1,0 +1,437 @@
+<!--
+Developed under a Research grant from NMEICT, MHRD 
+by 
+Amrita CREATE (Center for Research in Advanced Technologies for Education), 
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+<script src="../../../../Scripts/AC_RunActiveContent.js" type="text/javascript"></script>
+<div class="post" align="left">&nbsp; <!--leave this space as such.. som wired issue-->
+<iframe src="Verification_of_Tafel_Equation.html" frameborder="0" height="600" width="800" scrolling="no"></iframe>
+<br />
+<p class="content" >
+<a href="javascript:shwgrd();" style="font-family:Verdana, Geneva, sans-serif"> Show/Hide worksheet</a>
+</p>
+<br />
+<meta http-equiv="Content-Language" content="en-us" /> 
+<meta name="keywords" content="dhtml grid, AJAX grid, living chart, flash chart" >
+<meta name="description" content="How to add chart functionalities to grid" >
+<script src="../../../../Scripts/grid/jssc3.js" type="text/javascript"></script>
+<link href="../../../../Scripts/grid/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" media="all" href="../../../../Scripts/grid/calendar/calendar-blue.css"  />
+<script type="text/javascript" src="../../../../Scripts/grid/calendar/calendar.js"></script>
+<script type="text/javascript" src="../../../../Scripts/grid/calendar/calendar-cn-utf8.js"></script>
+<script type="text/javascript" src="../../../../Scripts/grid/calendar/calendar-setup.js"></script>
+<link rel="stylesheet" type="text/css" href="../../../../Scripts/grid/skin/vista/skinstyle.css" />
+<script type="text/javascript" src="../../../../Scripts/grid/flashchart/fusioncharts/FusionCharts.js"></script>
+
+<link rel="stylesheet" type="text/css" href="../../../../Scripts/grid/gt_grid.css" />  
+<script type="text/javascript" src="../../../../Scripts/grid/gt_msg_en.js"></script>
+<script type="text/javascript" src="../../../../Scripts/grid/gt_const.js"></script>
+<script type="text/javascript" src="../../../../Scripts/grid/gt_grid_all.js"></script>
+<script type="text/javascript" >  
+
+
+var Column1=new Array();
+var Column2=new Array();
+var Column3=new Array();
+ var strXML =0;
+   var strXML2=0;
+
+  var data1 = [
+[1,0.00000000000025,0.7,2,96500,0.1,8.314,298],
+ [2,0.00000000003,0.7,2,96500,0.1,8.314,298],
+[3,0.00000000000025,0.7,2,96500,-1,8.314,298],
+[4,0.0000004,0.7,2,96500,0.5,8.314,298],
+[5,0.00000000000025,0.7,2,96500,-0.95,8.314,298],
+[6,0.0000004,0.7,2,96500,-0.98,8.314,298]
+];
+  
+  
+ 
+var dsOption= {
+
+    fields :[
+
+        {name : 'serialNo',type : 'float'},
+
+        {name : 'currentdensity',type : 'float' },
+
+        {name : 'alpha' ,type : 'float' },
+		
+		{name : 'n' ,type: 'float' ,initValue : function(record){
+               var resn =2;
+               
+               return resn;
+        } },
+		
+
+        {name : 'F',type : 'float',initValue : function(record){
+               var resf =96500;
+               
+               return resf;
+        } },
+		
+       
+	   {name : 'eta' ,type: 'float' },
+       
+	   {name : 'R' ,type: 'float' ,initValue : function(record){
+               var resn =8.314;
+               return resn;
+        } },
+		
+	   
+	   {name : 'T' ,type: 'float',initValue : function(record){
+               var resn =298;
+               return resn;
+        } },
+		
+	   
+	   {name : 'i' ,type: 'float' ,  initValue : function(record){
+		 // alert("result1");
+		 // alert(record[1]*(Math.exp((record[2]*record[3]*record[4]*record[5])/(record[6]*record[7]))));
+               // var result =(record[1]*((record[2]*record[3]*record[4]*record[5])/(record[6]*record[7])));
+			   if(record[5]>=0){
+			   var result1 =(record[1]*(Math.exp((record[2]*record[3]*record[4]*record[5])/(record[6]*record[7]))));
+                //result1 = parseInt(result1*1000)/1000;
+				return result1;
+				 
+			   }
+			   else if(record[5]<0){
+				   //alert("result2");
+				   //alert((record[1]*(Math.exp((-1*(1-record[2])*record[3]*record[4]*record[5])/(record[6]*record[7])))));
+				var result1 =(Math.exp((record[2]*record[3]*record[4]*record[5])/(record[6]*record[7])));
+                //result1 = parseInt(result1*1000)/1000;
+                return result1;
+			   }
+			  
+        } },
+		 
+		 {name : 'logi' ,type: 'float' ,initValue : function(record){
+               var avg =(Math.log(record[8])/Math.LN10);
+               avg = parseInt(avg*1000)/1000;
+               return avg;
+        } },
+		
+		 {name : 'anF/2.303RT' ,type: 'float' ,initValue : function(record){
+               var avg1 =(record[2]*record[3]*record[4])/(2.303*record[6]*record[7]) ;
+               avg1 = parseInt(avg1*1000)/1000;
+               return avg1;
+        } }
+
+
+    ],
+	
+    recordType : 'array',
+ 
+data: data1
+	
+} 
+
+
+var colsOption = [
+
+     {id: 'serialNo' , header: "Trial No" , width :60 ,editor: {  type :"text"  } },
+
+     {id: 'currentdensity' , header: "Current density", width :110,editor: {  type :"text"  }},
+
+     {id: 'alpha' , header: "alpha" , width :80,editor: {  type :"text"  } },
+	 
+	 {id: 'n' , header: "n" , width :80  },
+
+     {id: 'F' , header: "F" , width :80 },
+	 
+	 {id: 'eta' , header: "eta" , width :80,editor: {  type :"text"  } } ,
+
+     {id: 'R' , header: "R" , width :80 },
+	 
+	 {id: 'T' , header: "T" , width :80 },
+	 
+	 {id: 'i' , header: "i" , width :80},
+	 
+	 {id: 'logi' , header: "logi" , width :80},
+	 
+	  {id: 'anF/2.303RT' , header: "anF/2.303RT" , width :150}
+		 
+];
+
+ 
+ 
+Sigma.ToolFactroy.register(
+	'chart2',  
+	{
+		cls : 'mybutton-cls',  
+		toolTip : 'Tafel Plot',
+		action : function(event,grid) { loadSwf2(grid.id); /*alert( 'The id of this grid is  '+grid.id)*/  }
+	}
+);
+
+var chartNum=0;
+function loadSwf(id){
+	chartNum=2;
+	mygrid.showDialog('chart')
+}
+function loadSwf2(id){
+	chartNum=3;
+	mygrid.showDialog('chart')
+}
+
+var gridOption={
+    id : "grid1",
+	width: "800",  
+	height: "200",  	
+    container : 'grid1_container', 
+	// loadURL : '../../../../Scripts/grid/export_php/testList.php',
+    SigmaGridPath : '../../../../Scripts/grid/',
+	exportURL : '../../../../Scripts/grid/export_php/testList.php?export=true',
+	exportFileName : 'test_export_doc',
+	 //defaultRecord : [3,6,7,6],
+
+	dataset : dsOption ,
+	columns : colsOption ,
+	customHead : 'myHead1',
+	toolbarPosition : 'bottom',
+	toolbarContent : 'add del reload  save | print xls pdf |  chart2 chart1'
+	
+	//toolbarContent : 'pdf' 
+};
+//function masterCompleted(grid){
+    //var colObj=grid1.columnMap['Mean'];
+	  //colObj.group();
+//}
+
+//showGrid();
+var showTable=false;
+function shwgrd(){
+	if(showTable){
+		showTable=false;
+		show()
+	}else{
+		showTable=true;
+		hide()
+	}
+}
+
+function showGrid(){
+
+	 if (Sigma.$('grid1_container').style.display!="none") {
+	  Sigma.$('grid1_container').style.display="none";
+		//grid1_container.visibility=hidden;
+    }else{
+	 Sigma.$('grid1_container').style.display='';
+	    mygrid.onShow();
+	   
+		
+	   }
+}
+//setChart type : Line, Area2D, Bar2D, Candlestick, Column2D, Column3D, Doughnut2D, Funnel, Gantt, MSArea2D, MSBar2D, MSColumn2D, MSColumn2DLineDY, MSColumn3D, MSColumn3DLineDY, MSLine, Pie2D, Pie3D,StackedArea2D, StackedBar2D,StackedColumn2D, StackedColumn3D
+ //setChart("Line");
+//setChart("FCF_Line.swf");
+//setChartSwf("FCF_MSLine.swf");
+setChart("../../../../../../../../../Scripts/grid/flashchart/fusioncharts/charts/FCF_MSLine.swf");
+var mygrid=new Sigma.Grid(gridOption);
+//Sigma.$('grid1_container').style.display="none";
+Sigma.Util.onLoad( Sigma.Grid.render(mygrid) );
+mygrid.visibility = 'hidden'; 
+//grid1_container.visibility=hidden;
+//document.all.grid1_container.style.visibility = 'hidden'; 
+////////////////////
+
+///////////
+var browserType;
+if (document.layers) {browserType = "nn4"}
+if (document.all) {browserType = "ie"}
+if (window.navigator.userAgent.toLowerCase().match("gecko")) {
+   browserType= "gecko"
+}
+
+function hide() {
+  if (browserType == "gecko" )
+     document.poppedLayer =  eval('document.getElementById("Worksheet")');
+  else if (browserType == "ie")
+     document.poppedLayer =  eval('document.getElementById("Worksheet")');
+  else
+     document.poppedLayer =  eval('document.layers["Worksheet"]');
+  //document.poppedLayer.style.visibility = "hidden";
+   document.poppedLayer.style.display="none";
+}
+/////
+function show() {
+  if (browserType == "gecko" )
+     document.poppedLayer = eval('document.getElementById("Worksheet")');
+  else if (browserType == "ie")
+     document.poppedLayer = eval('document.getElementById("Worksheet")');
+  else
+  document.poppedLayer = eval('document.layers["Worksheet"]');
+  //document.poppedLayer.style.visibility = "visible";
+   document.poppedLayer.style.display="inline";
+} 
+
+function hr(w, h) { document.writeln("<hr align=left width=" + w +"height=" + h +">"); }
+
+//////////////////////////////////////////////////////////
+
+  
+function updatecolumn()
+{
+ 
+	 var values1=0;
+	 var values2=0;
+     var values3=0;
+	
+	 var j=0;
+	 while(values1!=null){
+		values1=mygrid.getCellValue(5,j);
+		 Column1[j] = values1;
+		 j++;
+		//Column1.push(values1);
+		
+		
+	 }
+	// alert(Column1);
+	 var k=0;
+	 while(values2!=null){
+		values2=mygrid.getCellValue(9,k);
+		Column2[k] = values2;
+		k++;
+	 }
+	 
+	  var l=0;
+	 while(values3!=null){
+		values3=mygrid.getCellValue(10,l);
+		Column3[l] = values3;
+		l++;
+	 }
+
+   var temp;
+	 var temp2;
+	 var temp3;
+	 for (var z=0; z< (Column2.length -2); z++)    
+     {
+          for(var y = (z+1); y < Column2.length-1; y++)   
+         {
+                if (Column2[z] > Column2[y])           
+               {
+                        temp= Column2[z];          
+                        Column2[z] = Column2[y];
+                        Column2[y] = temp;
+						
+						temp2= Column1[z];          
+                        Column1[z] = Column1[y];
+                        Column1[y] = temp2;
+						
+						temp3= Column3[z];          
+                        Column3[z] = Column3[y];
+                        Column3[y] = temp3;
+               }
+          }
+     } 
+	
+	/* strXML ="<graph caption='Tafel plot' xAxisName='eta' yAxisMinValue='15000' yAxisName='logi' showNames='1' showValues='0' rotateNames='0' showColumnShadow='1' animation='1' showAlternateHGridColor='1' AlternateHGridColor='ff5904' divLineColor='ff5904' divLineAlpha='20' alternateHGridAlpha='5' canvasBorderColor='666666' baseFontColor='666666'>"
+	
+  for(var i=0;i<Column1.length-1; i++){ 
+//  alert (Column1.length); 
+   strXML+="<dataset seriesname='2006' showValues='0' color='FDC12E' parentYAxis='P' >"; 
+   strXML +="<set name='"+Column1[i]+"' value='"+Column2[i]+"' hoverText='"+Column1[i]+"' />";
+   // hr("Column3[1]","Column2[1]")  
+ }
+
+    strXML+="<dataset seriesname='2006' showValues='0' color='FDC12E' parentYAxis='P' >"; 
+  //for(var h=0;h<Column1.length-1; h++){ 
+ //alert (Column2[1],Column2[1]);
+   strXML +="<set name='"+Column3[1]+"' value='"+Column2[1]+"' hoverText='"+Column3[1]+"' />";
+// alert(strXML2);
+// }
+ strXML +="</graph>";*/
+ 
+ ///////////////////
+  strXML = "<graph animation='1' yaxisname='eta' xaxisname='logi' caption='Title' showNames='1'><categories>";
+
+ for(var i=0;i<Column2.length-1; i++){ 
+ //alert(Column1[i]);
+  strXML+="<category name='"+Column2[i]+"' hoverText='"+Column2[i]+"'/>";
+ }
+ 
+  strXML+="</categories>";
+  
+  
+   strXML+="<dataset   showValues='0' color='AFD8F8' parentYAxis='P' >"; 
+   
+   
+    for(var i=0;i<Column3.length-1; i++){ 
+  // strXML+="<set name='2005' value='"+Column1[i]+"' color='AFD8F8'/>";
+ 	strXML+="<set value='"+Column3[i]+"' />";
+  } 
+  
+  strXML+="</dataset>";
+  
+   strXML+="<dataset   showValues='0' color='FDC12E' parentYAxis='P' >"; 
+   
+  for(var i=0;i<Column1.length-1; i++){ 
+  //strXML+="<set name='2006' value='"+Column2[i]+"' color='AFD8F8'/>";
+  strXML+="<set value='"+Column1[i]+"' />";
+  
+   }
+  strXML+="</dataset>";
+  strXML+="</graph>";
+ // alert(strXML);
+ 
+  strXML2=strXML;
+}
+
+function SetNewXMLData()
+{
+	Column1.pop();
+	Column2.pop();
+	Column3.pop();
+	 
+	//alert("hjg");
+	updatecolumn();
+	 
+	if(chartNum==0)
+	{
+		
+		return ;
+		
+	}
+	else if(chartNum==2)
+	{
+		return strXML2;	
+	}
+	else 
+	{
+		return strXML;
+	}
+}
+</script> 
+<style type="text/css">
+ .mybutton-cls { 
+		background : url(../../../../Scripts/grid/skin/default/images/tool_chart.gif) no-repeat center center; 
+}
+</style>
+</head>
+<body>
+
+<div align="left" id="Worksheet"  style="visibility: visible"> 
+<table id="myHead1" style="display:none">
+     
+    <tr >
+         <td rowspan="2" columnId='serialNo'>Trial No</td>
+         <td rowspan="2" columnId='currentdensity'>Current density</td>
+         <td rowspan="2" columnId='alpha'>&alpha;</td>
+         <td rowspan="2" columnId='n'>n</td>
+         <td rowspan="2" columnId='F'>F</td>
+         <td rowspan="2" columnId='eta'> &eta;</td>
+         <td rowspan="2" columnId='R'>R</td>
+         <td rowspan="2" columnId='T'>T</td>  
+         <td rowspan="2" columnId='i'>i</td>  
+          <td rowspan="2" columnId='logi'>log i</td> 
+           <td rowspan="2" columnId='anF/2.303RT'>&alpha;nF/2.303RT</td>   
+    </tr>
+</table>
+<div align="left">
+ <div id="grid1_container" style="width:800px;height:300px">  
+</div>  
+</div>
+</div>

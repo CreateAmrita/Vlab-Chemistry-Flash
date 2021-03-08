@@ -1,0 +1,42 @@
+<!--
+Developed under a Research grant from NMEICT, MHRD 
+by 
+Amrita CREATE (Center for Research in Advanced Technologies for Education), 
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+<?xml version="1.0" encoding="utf-8"?>
+<Data>
+<Electrode Id ="1">
+<name>Lead</name>
+<code>Pb</code>
+<movieclipname></movieclipname>
+<currentdensity>0.00000000000025</currentdensity>
+<reductionpotential>-0.13</reductionpotential>
+<color>0x666666</color>
+<valency>2</valency>
+<electrolyte><color>0xFFFFFF</color><chename>PbNO3</chename></electrolyte>
+</Electrode>
+<Electrode Id ="2">
+<name>Zinc</name>
+<code>Zn</code>
+<movieclipname></movieclipname>
+<currentdensity>0.00000000003</currentdensity>
+<reductionpotential>-0.76</reductionpotential>
+<color>0x627C95</color>
+<valency>2</valency>
+<electrolyte><color>0xFFFFFF</color><chename>ZnSO4</chename></electrolyte>
+</Electrode>
+<Electrode Id ="3">
+<name>Silver</name>
+<code>Ag</code>
+<movieclipname></movieclipname>
+<currentdensity>0.0000004</currentdensity>
+<reductionpotential>0.80</reductionpotential>
+<color>0x938980</color>
+<valency>2</valency>
+<electrolyte><color>0xFFFFFF</color><chename>AgNO3</chename></electrolyte>
+</Electrode>
+
+</Data>

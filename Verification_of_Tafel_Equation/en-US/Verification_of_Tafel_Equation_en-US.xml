@@ -1,0 +1,43 @@
+<!--
+Developed under a Research grant from NMEICT, MHRD 
+by 
+Amrita CREATE (Center for Research in Advanced Technologies for Education), 
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xliff version="1.0" xml:lang="en-US">
+
+  <file datatype="plaintext" original="Verification_of_Tafel_Equation.fla" source-language="EN">
+    <header></header>
+    <body>
+      <trans-unit id="001" resname="IDS_COUNTERELECTRODE">
+        <source>Counter Electrode:</source>
+      </trans-unit>
+      <trans-unit id="002" resname="IDS_ELECTRODE">
+        <source>Working Electrode:</source>
+      </trans-unit>
+      <trans-unit id="003" resname="IDS_OVERPOTENTIAL">
+        <source>Over Potential</source>
+      </trans-unit>
+      <trans-unit id="004" resname="IDS_PB">
+        <source>Pb</source>
+      </trans-unit>
+      <trans-unit id="005" resname="IDS_PT">
+        <source>Pt</source>
+      </trans-unit>
+      <trans-unit id="006" resname="IDS_REFERENCEELECTRODE">
+        <source>Reference Electrode:</source>
+      </trans-unit>
+      <trans-unit id="007" resname="IDS_RESET">
+        <source>Reset</source>
+      </trans-unit>
+      <trans-unit id="008" resname="IDS_TRANSFERCOEFFICIENT">
+        <source>Transfer Coefficient</source>
+      </trans-unit>
+    </body>
+  </file>
+
+</xliff>
