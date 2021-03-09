@@ -1,0 +1,186 @@
+﻿<!--
+Developed under a Research grant from NMEICT, MHRD 
+by 
+Amrita CREATE (Center for Research in Advanced Technologies for Education), 
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+
+
+
+
+<SCENE ID="subtitle">
+	<TEXT ID="subtitle_one">
+		<TEXTVALUE>Click on the label '0- nitro phenol & p- nitro phenol' to start the experiment.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="OnitroPlaceRBinMandle">
+	<TEXT ID="OnitroPlaceRBinMandle_one">
+		<TEXTVALUE>Take some Ortho Nitro Phenol and Para Nitro Phenol in a round bottom flask.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="OnitroPlaceRBinMandle_two">
+		<TEXTVALUE>Add some water into it.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="OnitroPlaceRBinMandle_three">
+		<TEXTVALUE>Place the RB flask in a heating mantle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="OnitroNewRBandPourWater">
+	<TEXT ID="OnitroNewRBandPourWater_one">
+		<TEXTVALUE>Take another round bottom flask, place it on a tripod stand.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="OnitroNewRBandPourWater_two">
+		<TEXTVALUE>Keep a filter funnel on the mouth of the RB flask.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="OnitroNewRBandPourWater_three">
+		<TEXTVALUE>Fill some water till the neck of the RB flask.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="OnitroNewRBandPourWater_four">
+		<TEXTVALUE>Remove the funnel.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+
+<SCENE ID="OnitroCorkitAndEnterGlassTube">
+	<TEXT ID="OnitroCorkitAndEnterGlassTube_one">
+		<TEXTVALUE> Insert a cork.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="OnitroCorkitAndEnterGlassTube_two">
+		<TEXTVALUE>Insert a glass tube into the RB flask.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="OnitroFitAdapterandCondensor">
+	<TEXT ID="OnitroFitAdapterandCondensor_one">
+		<TEXTVALUE>Place an adapter on top of the RB flask in the heating mantle.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="OnitroFitAdapterandCondensor_two">
+		<TEXTVALUE>Attach a condenser and then a receiver as shown.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="OnitroFitReceiverandFlask">
+	<TEXT ID="OnitroFitReceiverandFlask_one">
+		<TEXTVALUE>Place a conical flask filled with ice to collect the vapours.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="OnitroEnter2glasstubes">
+	<TEXT ID="OnitroEnter2glasstubes_one">
+		<TEXTVALUE>Insert another glass tube to the RB flask on the tripod stand.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="OnitroEnter2glasstubes_two">
+		<TEXTVALUE>Insert a glass cork and then a glass tube through it into the RB flask in the heating mantle.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+
+<SCENE ID="OnitroConnectsteamandadapter">
+	<TEXT ID="OnitroConnectsteamandadapter_one">
+		<TEXTVALUE>Connect the two flasks using a tube as shown.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+
+<SCENE ID="OnitroConnectwater">
+	<TEXT ID="OnitroConnectwater_one">
+		<TEXTVALUE>Attach two tubes to the two outlets of the condenser and turn on the tap.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="OnitroConnectwater_two">
+		<TEXTVALUE>The condenser gets filled with water.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="OnitroGraphanimation2">
+	<TEXT ID="OnitroGraphanimation2_one">
+		<TEXTVALUE>If you carefully observe, the water passes through the tube, fills the condenser and then comes out through one of the outlet. This process is to condense the condenser.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="OnitroBurnerandMandle">
+	<TEXT ID="OnitroBurnerandMandle_one">
+		<TEXTVALUE>Set the temparature of heating mandle to 93ºC, turn on the burner too.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="OnitroBoilandSeparation">
+	<TEXT ID="OnitroBoilandSeparation_one">
+		<TEXTVALUE>The Water vapour rises up and the conical flask gets filled with a green colour salt.</TEXTVALUE>
+	</TEXT>
+	
+</SCENE>
+
+<SCENE ID="OnitroGraphanimation">
+	<TEXT ID="OnitroGraphanimation_one">
+		<TEXTVALUE>If you carefully observe, Water vapour rises up from the RB flask on the tripod stand, passes through the tube, enters the second RB flask and now the O-Nitro Phenol vapour rises up and passes through the condenser and get collected in the receiver conical flask in the solid form as shown.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="OnitroGraphanimation_two">
+		<TEXTVALUE>Here, the O-Nitro Phenol vapour, when gets into the condenser get converted into liquid form due to condensation and get collected in the solid form in the conical flask due to the ice filled in it.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+
+<SCENE ID="Onitrotakeflask">
+	<TEXT ID="Onitrotakeflask_one">
+		<TEXTVALUE>Take the conical flask.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+
+<SCENE ID="OnitroBuchnersetup">
+	<TEXT ID="OnitroBuchnersetup_one">
+		<TEXTVALUE>Clamp a side arm conical flask to funnel stand.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="OnitroBuchnersetup_two">
+		<TEXTVALUE>Place a Buchner funnel on the mouth of the flask.</TEXTVALUE>
+		</TEXT>
+		<TEXT ID="OnitroBuchnersetup_three">
+		<TEXTVALUE>Put a piece of filter paper to the funnel.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="OnitroConnectvaccumpumb">
+	<TEXT ID="OnitroConnectvaccumpumb_one">
+		<TEXTVALUE>Connect the thick wire of a hand vacuum pump to the side arm of the flask.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="OnitroConnectvaccumpumb_two">
+		<TEXTVALUE>Put the green salt along with the ice to the flask, the pistol of the pump should be squeezed along with it. The water gets filled in the flask due to the vacuum filtration.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="OnitroTakeoutfilterate">
+	<TEXT ID="OnitroTakeoutfilterate_one">
+		<TEXTVALUE>Take out the filter paper. We can observe that a thick layer of Ortho-Nitro Phenol is collected in the filter paper.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="OnitroTakeoutfilterate_two">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE></DATA>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
