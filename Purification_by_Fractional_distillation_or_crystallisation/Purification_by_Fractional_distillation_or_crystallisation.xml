@@ -1,0 +1,163 @@
+﻿<!--
+Developed under a Research grant from NMEICT, MHRD 
+by 
+Amrita CREATE (Center for Research in Advanced Technologies for Education), 
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+
+<SCENE ID="subtitle">
+	<TEXT ID="subtitle_one">
+		<TEXTVALUE>Click any one of the label to start the experiment. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="BenzenePlaceRBinMandle">
+	<TEXT ID="BenzenePlaceRBinMandle_one">
+		<TEXTVALUE>Take Cyclohexane and Toluene mixture in a round bottom flask. Put some porcelain pieces in it to avoid bumping while boiling.</TEXTVALUE>
+	</TEXT>
+		<TEXT ID="BenzenePlaceRBinMandle_two">
+		<TEXTVALUE>Place the RB flask in a heating mantle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BenzenePlaceFractionatingColumnnAdapter">
+	<TEXT ID="BenzenePlaceFractionatingColumnnAdapter_one">
+		<TEXTVALUE>Fix a fractionating column and an adapter on top of the RB flask.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BenzenePlaceThermometer">
+	<TEXT ID="BenzenePlaceThermometer_one">
+		<TEXTVALUE> Fit a thermometer in a thermometer cork and place it on the adapter.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BenzenePlaceCondensornReceiver">
+	<TEXT ID="BenzenePlaceCondensornReceiver_one">
+		<TEXTVALUE>Attach a condenser to the adapter and a then a receiver to the condenser.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="BenzenePlaceCondensornReceiver_two">
+		<TEXTVALUE>Fix a round bottom flask in a stand.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Benzeneconnectwater">
+	<TEXT ID="Benzeneconnectwater_one">
+		<TEXTVALUE>Attach two tubes to the two outlets of the condenser as shown and then open the tap.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="Benzeneconnectwater_two">
+		<TEXTVALUE>The condenser gets filled with water.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BenzeneGraph1copy">
+	<TEXT ID="BenzeneGraph1copy_one">
+		<TEXTVALUE>If you carefully observe, the water passes through the tube, fills the condenser and then come out through one of the outlet. This process is to condense the condenser.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Heating mantle">
+	<TEXT ID="Heating mantle_one">
+		<TEXTVALUE>Set the temperature to 82ºC on the heating mantle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="BenzeneGraph1">
+	<TEXT ID="BenzeneGraph1_one">
+		<TEXTVALUE>Cyclohexane evaporates, vapours rise through the column, while it passes through the condenser, condensation takes place and therefore Cyclohexane vapour gets collected in liquid form in the RB flask.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="BenzeneGraph1_two">
+		<TEXTVALUE>Cyclohexane has the lower boiling point (80ºC) and is more volatile. Toluene does not boil at the same temperature as Cyclohexane, so the Cyclohexane will boil out of the mixture first.
+</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="BenzeneGraph1_three">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="EthanolPlaceRBinMandle">
+	<TEXT ID="EthanolPlaceRBinMandle_one">
+		<TEXTVALUE>Take Ethanol and Water mixture in a round bottom flask. Put some porcelain pieces in it to avoid bumping while boiling.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="EthanolPlaceRBinMandle_two">
+		<TEXTVALUE>Place the RB flask in a heating mantle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="EthanolPlaceFractionatingColumnnAdapter">
+	<TEXT ID="EthanolPlaceFractionatingColumnnAdapter_one">
+		<TEXTVALUE>Fix a fractionating column and an adapter on top of the RB flask.</TEXTVALUE>
+	</TEXT>
+	
+</SCENE>
+<SCENE ID="EthanolPlaceThermometer">
+	<TEXT ID="EthanolPlaceThermometer_one">
+		<TEXTVALUE> Fit a thermometer in a thermometer cork and place it on the adapter.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="EthanolPlaceCondensornReceiver">
+	<TEXT ID="EthanolPlaceCondensornReceiver_one">
+		<TEXTVALUE> Attach a condenser to the adapter and a then a receiver to the condenser.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="EthanolPlaceCondensornReceiver_two">
+		<TEXTVALUE>Fix a round bottom flask in a stand.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Ethanolconnectwater">
+	<TEXT ID="Ethanolconnectwater_one">
+		<TEXTVALUE>Attach two tubes to the two outlets of the condenser as shown and turn on the tap.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="Ethanolconnectwater_two">
+		<TEXTVALUE>The condenser gets filled with water.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="EthanolGraph1 copy">
+	<TEXT ID="EthanolGraph1 copy_one">
+		<TEXTVALUE>If you carefully observe, the water passes through the tube, fills the condenser and then comes out through one of the outlet. This process is to condense the condenser.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+<SCENE ID="Heatingmantle">
+	<TEXT ID="Heatingmantle_one">
+		<TEXTVALUE>Set the temperature to 78.4ºC on the heating mantle.</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+	
+	
+	<SCENE ID="EthanolGraph1">
+	<TEXT ID="EthanolGraph1_one">
+		<TEXTVALUE>Ethanol evaporates, the vapours rise through the column, while it passes through the condenser, condensation takes place and therefore Ethanol vapours gets collected in liquid form in the RB flask.</TEXTVALUE>
+	</TEXT>
+	
+	<TEXT ID="EthanolGraph1_two">
+		<TEXTVALUE>Ethanol has the lower boiling point (78ºC) than the water. Because ethanol is more volatile, the vapours contain more ethanol. This process has to be repeated many times before the collected liquid consist of only pure ethanol.
+
+</TEXTVALUE>
+	</TEXT>
+	
+	<TEXT ID="EthanolGraph1_three">
+		<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+	</SCENE>
+
+
+
+</DATA>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
