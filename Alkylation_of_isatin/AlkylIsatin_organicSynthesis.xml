@@ -1,0 +1,207 @@
+﻿<!--
+Developed under a Research grant from NMEICT, MHRD 
+by 
+Amrita CREATE (Center for Research in Advanced Technologies for Education), 
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+<SCENE ID="AlkylIsatinStartScene">
+	<TEXT ID="AlkylIsatinStartScene_one">
+	 <TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="AlkylIsatinStartScene_two">
+	 <TEXTVALUE>Point the mouse to each requirement of the experiment to know the name / Click the "Continue" button to start the experiment.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="magneticstirrerSetup">
+	<TEXT ID="magneticstirrerSetup_one">
+	 <TEXTVALUE>An RB with a pellet is fixed in a stand with hotplate, stirrer and water bath.  Switch on the stirrer.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="satinonbutterpaper">
+	<TEXT ID="satinonbutterpaper_one">
+	 <TEXTVALUE>Weigh out 500mg of Isatin in a weighing balance.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="IsatininRB">
+	<TEXT ID="IsatininRB_one">
+	 <TEXTVALUE>Isatin is added to the RB.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="IsatininRBZoom">
+	<TEXT ID="IsatininRBZoom_one">
+	 <TEXTVALUE>Isatin is added to the RB.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="RBcoveringguardtube">
+	<TEXT ID="RBcoveringguardtube_one">
+	 <TEXTVALUE>The mouth of the RB is closed with a guard tube filled with Calcium Chloride.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Cacl2bringandRB">
+	<TEXT ID="Cacl2bringandRB_one">
+	 <TEXTVALUE>214mg of Calcium Hydride is added to the RB flask.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="CaCl2inRBzoom">
+	<TEXT ID="CaCl2inRBzoom_one">
+	 <TEXTVALUE>214mg of Calcium Hydride is added to the RB flask.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="RBclossedguardtube">
+	<TEXT ID="RBclossedguardtube_one">
+	 <TEXTVALUE>Isatin and Calcium Hydride are taken in a two-necked RB and the mouth of the RB is closed with a guard tube filled with Calcium Chloride.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="DMFpouringinRBzoom">
+	<TEXT ID="DMFpouringinRBzoom_one">
+	 <TEXTVALUE>10mL of dry DMF is added through a Solvent Syringe.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="RBclampedonstirrer">
+	<TEXT ID="RBclampedonstirrer_one">
+	 <TEXTVALUE>The RB is placed in the water bath.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Tobeaker45digree30mints">
+	<TEXT ID="Tobeaker45digree30mints_one">
+	 <TEXTVALUE>Temperature of the water bath is set to 40-50° C.  The system is allowed to stir for 30 minutes.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="AlkytingpouringinRBzoom">
+	<TEXT ID="AlkytingpouringinRBzoom_one">
+	 <TEXTVALUE>0.44mL of Allyl bromide is added to the system carefully.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Tobeaker4to5hours">
+	<TEXT ID="Tobeaker4to5hours_one">
+	 <TEXTVALUE>Temperature of the water bath is set to 40-50° C.  The system is allowed to stir for 4 to 5 hours.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="4to5zoom">
+	<TEXT ID="4to5zoom_one">
+	 <TEXTVALUE>The reaction mixture is taken out of the water bath.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Brownsltnporingbeaker">
+	<TEXT ID="Brownsltnporingbeaker_one">
+	 <TEXTVALUE>After removing the pellet, the whole reaction mixture is transferred to a beaker containing Brine solution.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BrownSeperationoffnnel">
+	<TEXT ID="BrownSeperationoffnnel_one">
+	 <TEXTVALUE>Then the solution is poured into a seperating funnel.</TEXTVALUE>
+	</TEXT>
+	<TEXT ID="BrownSeperationoffnnel_two">
+	 <TEXTVALUE>50mL of Ethyl acetate is added.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BrownSeperationoffnnelrot">
+	<TEXT ID="BrownSeperationoffnnelrot_one">
+	 <TEXTVALUE>The seperating funnel is swirled for a few minutes.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="BrownSeperationoffnnelrotagain">
+	<TEXT ID="BrownSeperationoffnnelrotagain_one">
+	 <TEXTVALUE>The seperating funnel is swirled for a few minutes.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Conicalflskreturback">
+	<TEXT ID="Conicalflskreturback_one">
+	 <TEXTVALUE>Replace the funnel in the stand.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Whitesolupouringconflsk">
+	<TEXT ID="Whitesolupouringconflsk_one">
+	 <TEXTVALUE>Then the lower aqueous layer is transferred into a clean conical flask.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Takinganotherconicalflask">
+	<TEXT ID="Takinganotherconicalflask_one">
+	 <TEXTVALUE>The coloured organic layer is collected into another conical flask.  Using Ethyl acetate, the same procedure is repeated with the aqueous layer.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Brownsolupouringconflsk">
+	<TEXT ID="Brownsolupouringconflsk_one">
+	 <TEXTVALUE>The coloured organic layer is collected into another conical flask.  Using Ethyl acetate, the same procedure is repeated with the aqueous layer. </TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Solutionswirld">
+	<TEXT ID="Solutionswirld_one">
+	 <TEXTVALUE>Sodium sulphate is added to the whole organic layer and the conical flask is swirled slowly to remove fine traces of water.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="SolutionpoyirnRB">
+	<TEXT ID="SolutionpoyirnRB_one">
+	 <TEXTVALUE>The collected organic layer is poured into an RB through funnel with cotton.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="RbTLCBrown">
+	<TEXT ID="RbTLCBrown_one">
+	 <TEXTVALUE>TLC is done with reaction mixture and Isatin solution.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="RbTLCBrownzoom">
+	<TEXT ID="RbTLCBrownzoom_one">
+	 <TEXTVALUE>TLC is done with reaction mixture and Isatin solution.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="RbTLCIsatin">
+	<TEXT ID="RbTLCIsatin_one">
+	 <TEXTVALUE>TLC is done with reaction mixture and Isatin solution.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="TLCinchamber">
+	<TEXT ID="TLCinchamber_one">
+	 <TEXTVALUE>The spotted TLC plate is kept in 15% Ethal Acetate-Hexane chamber.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="TLCinchamberZoom">
+	<TEXT ID="TLCinchamberZoom_one">
+	 <TEXTVALUE>The spotted TLC plate is kept in 15% Ethal Acetate-Hexane chamber.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="TLCinIodinechamber">
+	<TEXT ID="TLCinIodinechamber_one">
+	 <TEXTVALUE>TLC plate is dried and then kept inside an iodine chamber.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="TLCinIodinechamberZoom">
+	<TEXT ID="TLCinIodinechamberZoom_one">
+	 <TEXTVALUE>The colored spots will appear on the TLC plate at different levels.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Rotavapoursetup">
+	<TEXT ID="Rotavapoursetup_one">
+	 <TEXTVALUE>The solvent from the reaction mixture is removed using a Rotary Evaporator.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="Rotavapoursetupchange">
+	<TEXT ID="Rotavapoursetupchange_one">
+	 <TEXTVALUE>RB flask is removed from the rotary evaporator.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Coloumnsetup">
+	<TEXT ID="Coloumnsetup_one">
+	 <TEXTVALUE>The residue is packed into a silica column.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="coloumnopen">
+	<TEXT ID="coloumnopen_one">
+	 <TEXTVALUE>The product is eluted with 15% Ethyl Acetate-Hexane and collected in a clean conical flask.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+<SCENE ID="Watchglassscene">
+	<TEXT ID="Watchglassscene_one">
+	 <TEXTVALUE>The solvent is removed using Rotary Evaporator.  Thus, the pure Allyl Isatin is obtained which can be characterised by spectroscopic analysis and melting point determination.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+</DATA>
