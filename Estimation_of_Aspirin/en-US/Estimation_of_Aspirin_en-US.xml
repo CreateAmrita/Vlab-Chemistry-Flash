@@ -1,0 +1,131 @@
+<!--
+Developed under a Research grant from NMEICT, MHRD 
+by 
+Amrita CREATE (Center for Research in Advanced Technologies for Education), 
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xliff version="1.0" xml:lang="en-US">
+
+  <file datatype="plaintext" original="Estimation_of_Aspirin.fla" source-language="EN">
+    <header></header>
+    <body>
+      <trans-unit id="001" resname="IDS_ADD_ASPIRIN">
+        <source>Add Aspirin</source>
+      </trans-unit>
+      <trans-unit id="002" resname="IDS_ADD_NAOH">
+        <source>Add NaOH</source>
+      </trans-unit>
+      <trans-unit id="003" resname="IDS_ADD_STARCH">
+        <source>Add starch</source>
+      </trans-unit>
+      <trans-unit id="004" resname="IDS_CORRECT">
+        <source>Correct Answer</source>
+      </trans-unit>
+      <trans-unit id="005" resname="IDS_INDICTR_STARCH">
+        <source>Please add the 
+indicator &quot;Starch&quot;.</source>
+      </trans-unit>
+      <trans-unit id="006" resname="IDS_MAKEUP_SOLUTN">
+        <source>Make up solution</source>
+      </trans-unit>
+      <trans-unit id="007" resname="IDS_NEXT">
+        <source>Next  &gt;&gt;</source>
+      </trans-unit>
+      <trans-unit id="008" resname="IDS_PERCENT_ALERT">
+        <source>100 % cannot be obtained.</source>
+      </trans-unit>
+      <trans-unit id="009" resname="IDS_PERCENT_ALERT1">
+        <source>100 % is not obtained</source>
+      </trans-unit>
+      <trans-unit id="010" resname="IDS_PERCENT_ALERT2">
+        <source>Please check. Your calculation is wrong.</source>
+      </trans-unit>
+      <trans-unit id="011" resname="IDS_PERCTNT_ASPIRIN">
+        <source>Enter the % of aspirin:</source>
+      </trans-unit>
+      <trans-unit id="012" resname="IDS_PIPETTE_OUT">
+        <source>Pipette out</source>
+      </trans-unit>
+      <trans-unit id="013" resname="IDS_PREPRTN_TITRTE">
+        <source>Preparation of titrate</source>
+      </trans-unit>
+      <trans-unit id="014" resname="IDS_PREV">
+        <source>&lt;&lt;  Prev</source>
+      </trans-unit>
+      <trans-unit id="015" resname="IDS_REPORT">
+        <source>Report</source>
+      </trans-unit>
+      <trans-unit id="016" resname="IDS_REPORT_MSG">
+        <source>Water level should be 250 ml to obtain 100% of aspirin</source>
+      </trans-unit>
+      <trans-unit id="017" resname="IDS_RESET">
+        <source>Reset</source>
+      </trans-unit>
+      <trans-unit id="018" resname="IDS_SCNE1_INSTRN">
+        <source>1. Select weight of  aspirin from the slider.
+2. Click on the  &quot;Add aspirin&quot; button to add aspirin.
+3. Click on the  &quot;Add NaOH&quot; button to add 40 ml of 10% NaOH.
+4. Click on the &quot;Next&quot; button.</source>
+      </trans-unit>
+      <trans-unit id="019" resname="IDS_SCNE2_INSTRN">
+        <source>5. Click on the &quot;Reflux&quot; button to reflux the content for 15 minutes.
+6. Click on the &quot;Next&quot; button.</source>
+      </trans-unit>
+      <trans-unit id="020" resname="IDS_SCNE3_INSTRN">
+        <source>7.Click &quot;Transfer solution&quot; button to transfer it  into 250ml standard flask.
+8.Click &quot;Make up solution&quot; button to make the solution upto the mark and shake well.
+9. Click on the &quot;Next&quot; button.</source>
+      </trans-unit>
+      <trans-unit id="021" resname="IDS_SCNE4_INSTRN">
+        <source>10. Select volume of aspirin from the slider.
+11.Click on the &quot;Pipette out&quot; button to pipette out the aspirin.
+12. Click on the &quot;Next&quot; button.</source>
+      </trans-unit>
+      <trans-unit id="022" resname="IDS_SPEEDOFDROPS">
+        <source>Speed of drops:</source>
+      </trans-unit>
+      <trans-unit id="023" resname="IDS_START">
+        <source>Start</source>
+      </trans-unit>
+      <trans-unit id="024" resname="IDS_STOP">
+        <source>Stop</source>
+      </trans-unit>
+      <trans-unit id="025" resname="IDS_SUBMIT">
+        <source>Submit</source>
+      </trans-unit>
+      <trans-unit id="026" resname="IDS_SWITCH_ON_MANTLE">
+        <source>Reflux</source>
+      </trans-unit>
+      <trans-unit id="027" resname="IDS_THIO">
+        <source>Thio (N=0.0964)</source>
+      </trans-unit>
+      <trans-unit id="028" resname="IDS_TITRANT">
+        <source>       Titrant:</source>
+      </trans-unit>
+      <trans-unit id="029" resname="IDS_TITRATE_PREPARATN">
+        <source>i. Add 2 ml conc. HCl and 50 ml of  brom.mixture to the aspirin taken.
+ii. Shake it well for 15 minutes.
+iii. Add 10 ml 10% KI to the above solution.
+iv. Dilute it with water</source>
+      </trans-unit>
+      <trans-unit id="030" resname="IDS_TRANSFER_SLOUTN">
+        <source>Transfer solution</source>
+      </trans-unit>
+      <trans-unit id="031" resname="IDS_VOL_OF_ASPIRIN">
+        <source>Volume of Aspirin:</source>
+      </trans-unit>
+      <trans-unit id="032" resname="IDS_WARNING_MSGE">
+        <source>Please add the 
+indicator &quot;Starch&quot;.</source>
+      </trans-unit>
+      <trans-unit id="033" resname="IDS_WT_OF_ASPIRIN">
+        <source>Weight of Aspirin:</source>
+      </trans-unit>
+    </body>
+  </file>
+
+</xliff>
