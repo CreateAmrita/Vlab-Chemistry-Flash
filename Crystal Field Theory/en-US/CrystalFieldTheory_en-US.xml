@@ -1,0 +1,56 @@
+<!--
+Developed under a Research grant from NMEICT, MHRD 
+by 
+Amrita CREATE (Center for Research in Advanced Technologies for Education), 
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xliff version="1.0" xml:lang="en-US">
+
+  <file datatype="plaintext" original="CrystalFieldTheory.fla" source-language="EN">
+    <header></header>
+    <body>
+      <trans-unit id="001" resname="IDS_COMPLEX_NAME">
+        <source>Complex Name:</source>
+      </trans-unit>
+      <trans-unit id="002" resname="IDS_ERROR">
+        <source>Violation of rule</source>
+      </trans-unit>
+      <trans-unit id="003" resname="IDS_INSTRUCTION">
+        <source>1) Click on the energy level to fill the electrons.
+</source>
+      </trans-unit>
+      <trans-unit id="004" resname="IDS_LIGANDS">
+        <source>Ligands:</source>
+      </trans-unit>
+      <trans-unit id="005" resname="IDS_METAL">
+        <source>Metal:</source>
+      </trans-unit>
+      <trans-unit id="006" resname="IDS_RESET">
+        <source>Reset</source>
+      </trans-unit>
+      <trans-unit id="007" resname="IDS_RIGHT">
+        <source>Your answer is correct</source>
+      </trans-unit>
+      <trans-unit id="008" resname="IDS_SPACE">
+        <source>EG</source>
+      </trans-unit>
+      <trans-unit id="009" resname="IDS_SUBMIT">
+        <source>Submit</source>
+      </trans-unit>
+      <trans-unit id="010" resname="IDS_TITLE">
+        <source>Crystal Field Theory</source>
+      </trans-unit>
+      <trans-unit id="011" resname="IDS_TYPE_SPLITTING">
+        <source>Type of splitting:</source>
+      </trans-unit>
+      <trans-unit id="012" resname="IDS_WRONG">
+        <source>Your answer is wrong.Try again!</source>
+      </trans-unit>
+    </body>
+  </file>
+
+</xliff>
