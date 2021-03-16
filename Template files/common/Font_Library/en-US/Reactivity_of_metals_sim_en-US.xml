@@ -1,0 +1,100 @@
+<!--
+Developed under a Research grant from NMEICT, MHRD
+by
+Amrita CREATE (Center for Research in Advanced Technologies for Education),
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xliff version="1.0" xml:lang="en-US">
+
+  <file datatype="plaintext" original="Reactivity_of_metals_sim.fla" source-language="EN">
+    <header></header>
+    <body>
+      <trans-unit id="001" resname="IDS_AL_COPPER">
+        <source>Al is more reactive than Cu and it can displace Cu from CuSO4 solution and form a colourless solution of Al2(SO4)3.</source>
+      </trans-unit>
+      <trans-unit id="002" resname="IDS_AL_FERROUS">
+        <source>Al is more reactive than Fe and it can displace Fe from FeSO4 solution and form a colourless solution of Al2(SO4)3.</source>
+      </trans-unit>
+      <trans-unit id="003" resname="IDS_AL_ZINC">
+        <source>Al is more reactive than Zn and it can displace Zn from ZnSO4 solution and form a colourless solution of Al2(SO4)3.</source>
+      </trans-unit>
+      <trans-unit id="004" resname="IDS_ALUMINIUM">
+        <source>Aluminium</source>
+      </trans-unit>
+      <trans-unit id="005" resname="IDS_CLICKINFO">
+        <source>Click on the information icon to see the inference.</source>
+      </trans-unit>
+      <trans-unit id="006" resname="IDS_COPPER">
+        <source>Copper</source>
+      </trans-unit>
+      <trans-unit id="007" resname="IDS_INF_AL_COPPER">
+        <source>Cu is less reactive than Al. So it cannot displace the metals from their salt solutions.</source>
+      </trans-unit>
+      <trans-unit id="008" resname="IDS_INF_FE_COPPER">
+        <source>Cu is less reactive than Fe. So it cannot displace the metals from their salt solutions.</source>
+      </trans-unit>
+      <trans-unit id="009" resname="IDS_INF_ZN_COPPER">
+        <source>Cu is less reactive than  Zn. So it cannot displace the metals from their salt solutions.</source>
+      </trans-unit>
+      <trans-unit id="010" resname="IDS_INST1">
+        <source>Select the metals from the drop down menu.</source>
+      </trans-unit>
+      <trans-unit id="011" resname="IDS_INST2">
+        <source>Al is more reactive than Zn, Fe &amp; Cu. So it displaces these metals from ZnSO4, FeSO4 &amp; CuSO4 solutions.</source>
+      </trans-unit>
+      <trans-unit id="012" resname="IDS_INST3">
+        <source>Zn is more reactive than Fe,Cu. So it can displace these metals from FeSO4, CuSO4 solution respectively. Zn is less reactive than Al so it can&apos;t displace Al from Al2(SO4)3.</source>
+      </trans-unit>
+      <trans-unit id="013" resname="IDS_INST4">
+        <source>Fe is is more reactive than Cu. So it can displace CuSO4 solution respectively.Fe is less reactive than Zn,Al and it can&apos;t displace these metals from those salt solution.</source>
+      </trans-unit>
+      <trans-unit id="014" resname="IDS_INST5">
+        <source>Cu is more reactive than Zn,Fe,Al. So it can&apos;t displace these metals from those salt solution.
+</source>
+      </trans-unit>
+      <trans-unit id="015" resname="IDS_INST22">
+        <source>Zn is more reactive than Cu/Fe and it can displace Cu/Fe from CuSO4/FeSO4 solution to form a colourless solution of (ZnSO4).No change is observed in Al2(SO4)3.</source>
+      </trans-unit>
+      <trans-unit id="016" resname="IDS_INSTRUCT">
+        <source>Instruction:</source>
+      </trans-unit>
+      <trans-unit id="017" resname="IDS_IRON">
+        <source>Iron</source>
+      </trans-unit>
+      <trans-unit id="018" resname="IDS_IRON_AL_ZN">
+        <source>There is no change. This indicates that Fe is less reactive than the other two metals Al and Zn so it cannot displace these metals from their salt solutions.</source>
+      </trans-unit>
+      <trans-unit id="019" resname="IDS_IRON_COPPER">
+        <source>Fe is more reactive than Cu and it can displace Cu from CuSO4 solution and form a light green coloured FeSO4 solution.</source>
+      </trans-unit>
+      <trans-unit id="020" resname="IDS_OVER">
+        <source>Click and drag forceps to add 2 pieces of metals into the beaker</source>
+      </trans-unit>
+      <trans-unit id="021" resname="IDS_SELECT">
+        <source>Select the metals</source>
+      </trans-unit>
+      <trans-unit id="022" resname="IDS_VARIABLES">
+        <source>Variables:</source>
+      </trans-unit>
+      <trans-unit id="023" resname="IDS_ZINC">
+        <source>Zinc</source>
+      </trans-unit>
+      <trans-unit id="024" resname="IDS_ZINC_ALUMINIUM">
+        <source>No change is observed. Because Zn is less reactive than Al so it cannot displace Al from Al2(SO4)3 solution.</source>
+      </trans-unit>
+      <trans-unit id="025" resname="IDS_ZINC_COPPER">
+        <source>Zn is more reactive than Cu and it can displace Cu from CuSO4 solution to form a colourless solution of (ZnSO4).</source>
+      </trans-unit>
+      <trans-unit id="026" resname="IDS_ZINC_FERROUS">
+        <source>Zn is more reactive than Fe and it can displace Fe from (FeSO4) solution and form a colourless solution of (ZnSO4).</source>
+      </trans-unit>
+    </body>
+  </file>
+
+</xliff>
