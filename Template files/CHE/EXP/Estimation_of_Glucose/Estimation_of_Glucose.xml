@@ -1,0 +1,613 @@
+﻿<!--
+Developed under a Research grant from NMEICT, MHRD 
+by 
+Amrita CREATE (Center for Research in Advanced Technologies for Education), 
+VALUE (Virtual Amrita Laboratories Universalizing Education)
+Amrita University, India 2009 - 2013
+http://www.amrita.edu/create
+-->
+<?xml version="1.0" encoding="utf-8"?>
+<DATA>
+
+
+
+<SCENE ID="1Startscene">
+	<TEXT ID="1Startscene_one">
+	 	<TEXTVALUE>Click on each apparatus/reagents to know its name or click on “Continue” to start the experiment.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="2papaertaking">
+	<TEXT ID="2papaertaking_one">
+	 	<TEXTVALUE>Standardization of Fehling’s Solution: Using an electronic balance and butter paper 1.25g glucose is weighed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="3weignmesion">
+	<TEXT ID="3weignmesion_one">
+	 	<TEXTVALUE>Standardization of Fehling’s Solution: Using an electronic balance and butter paper 1.25g glucose is weighed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="4glucosetaking">
+	<TEXT ID="4glucosetaking_one">
+	 	<TEXTVALUE>Standardization of Fehling’s Solution: Using an electronic balance and butter paper 1.25g glucose is weighed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="5glucosetomachine">
+	<TEXT ID="5glucosetomachine_one">
+	 	<TEXTVALUE>Standardization of Fehling’s Solution: Using an electronic balance and butter paper 1.25g glucose is weighed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="6bottleopen">
+	<TEXT ID="6bottleopen_one">
+	 	<TEXTVALUE>The weighed glucose is transferred into the weighing bottle.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="7bottletomachine">
+	<TEXT ID="7bottletomachine_one">
+	 	<TEXTVALUE>Weighing bottle containing glucose is again weighed and the net weight is noted.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="8standardflaskopen">
+	<TEXT ID="8standardflaskopen_one">
+	 	<TEXTVALUE>The weighed sample is transferred into the 250 ml standard flask using funnel.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="9funneltaking">
+	<TEXT ID="9funneltaking_one">
+	 	<TEXTVALUE>The weighed sample is transferred into the 250 ml standard flask using funnel.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="10funneltoflask">
+	<TEXT ID="10funneltoflask_one">
+	 	<TEXTVALUE>The weighed sample is transferred into the 250 ml standard flask using funnel.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="11bottlefrommachine">
+	<TEXT ID="11bottlefrommachine_one">
+	 	<TEXTVALUE>The weighed sample is transferred into the 250 ml standard flask using funnel.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="12glucosetofunnel">
+	<TEXT ID="12glucosetofunnel_one">
+	 	<TEXTVALUE>The weighed sample is transferred into the 250 ml standard flask using funnel.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="13bottletomachine2">
+	<TEXT ID="13bottletomachine2_one">
+	 	<TEXTVALUE>The empty weighing bottle is again weighed and the weight is noted.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="14textresult">
+	<TEXT ID="14textresult_one">
+	 	<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="15waterbottle">
+	<TEXT ID="15waterbottle_one">
+	 	<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="16watertofunnel">
+	<TEXT ID="16watertofunnel_one">
+	 	<TEXTVALUE>Dissolve the glucose using minimum quantity of distilled water.</TEXTVALUE>
+	</TEXT>
+<TEXT ID="16watertofunnel_two">
+	 	<TEXTVALUE>The tip of the funnel is also washed.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="17flasktaking">
+	<TEXT ID="17flasktaking_one">
+	 	<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="18flaskrotating">
+	<TEXT ID="18flaskrotating_one">
+	 	<TEXTVALUE>Shake well for dissolving the glucose.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="19flaskplacing">
+	<TEXT ID="19flaskplacing_one">
+	 	<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="20waterbottle2">
+	<TEXT ID="20waterbottle2_one">
+	 	<TEXTVALUE>Make up to the mark and close the standard flask.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="21watertofunnel2">
+	<TEXT ID="21watertofunnel2_one">
+	 	<TEXTVALUE>Make up to the mark and close the standard flask.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+<SCENE ID="22standardflaskclosing">
+	<TEXT ID="22standardflaskclosing_one">
+	 	<TEXTVALUE>Make up to the mark and close the standard flask.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="23flaskrotating2">
+	<TEXT ID="23flaskrotating2_one">
+	 	<TEXTVALUE>Shake well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="24flaskplacing2">
+	<TEXT ID="24flaskplacing2_one">
+	 	<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="25burettetaking">
+	<TEXT ID="25burettetaking_one">
+	 	<TEXTVALUE>Take a clean burette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="26burettetighting">
+	<TEXT ID="26burettetighting_one">
+	 	<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="27standardflaskopen2">
+	<TEXT ID="27standardflaskopen2_one">
+	 	<TEXTVALUE>Rinse the burette using small amount of glucose solution.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="28mixturetoburette">
+	<TEXT ID="28mixturetoburette_one">
+	 	<TEXTVALUE>Rinse the burette using small amount of glucose solution.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="29mixturetoburetteclsup">
+	<TEXT ID="29mixturetoburetteclsup_one">
+	 	<TEXTVALUE>Rinse the burette using small amount of glucose solution.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="30mixturetoburette2">
+	<TEXT ID="30mixturetoburette2_one">
+	 	<TEXTVALUE>Rinse the burette using small amount of glucose solution.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="31flaskplacing3">
+	<TEXT ID="31flaskplacing3_one">
+	 	<TEXTVALUE>Rinse the burette using small amount of glucose solution.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="32buretteshaking">
+	<TEXT ID="32buretteshaking_one">
+	 	<TEXTVALUE>Rinse the burette using small amount of glucose solution.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="33wastebeaker">
+	<TEXT ID="33wastebeaker_one">
+	 	<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="34wastebeakerclsup">
+	<TEXT ID="34wastebeakerclsup_one">
+	 	<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="35standardflasktaking2">
+	<TEXT ID="35standardflasktaking2_one">
+	 	<TEXTVALUE>The standard solution of glucose prepared is taken in the burette, and adjust the level up to zero mark.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="36mixturetoburette3">
+	<TEXT ID="36mixturetoburette3_one">
+	 	<TEXTVALUE>The standard solution of glucose prepared is taken in the burette, and adjust the level up to zero mark.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="37mixturetoburette3clsup">
+	<TEXT ID="37mixturetoburette3clsup_one">
+	 	<TEXTVALUE>The standard solution of glucose prepared is taken in the burette, and adjust the level up to zero mark.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="38flaskplacing4">
+	<TEXT ID="38flaskplacing4_one">
+	 	<TEXTVALUE>The standard solution of glucose prepared is taken in the burette, and adjust the level up to zero mark.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="39wastebeakerclsup2">
+	<TEXT ID="39wastebeakerclsup2_one">
+	 	<TEXTVALUE>The standard solution of glucose prepared is taken in the burette, and adjust the level up to zero mark.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="40burettereleasing">
+	<TEXT ID="40burettereleasing_one">
+	 	<TEXTVALUE>The standard solution of glucose prepared is taken in the burette, and adjust the level up to zero mark.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="41pippettaking">
+	<TEXT ID="41pippettaking_one">
+	 	<TEXTVALUE>Take a clean 20 ml pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="42pippetttholder">
+	<TEXT ID="42pippetttholder_one">
+	 	<TEXTVALUE>Take a clean 20 ml pipette.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="43fehlingsa">
+	<TEXT ID="43fehlingsa_one">
+	 	<TEXTVALUE>Pipette 20ml Fehling’s A and transfer it into a 250ml conical flask.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="44fehlingsaclsup">
+	<TEXT ID="44fehlingsaclsup_one">
+	 	<TEXTVALUE>Pipette 20ml Fehling’s A and transfer it into a 250ml conical flask.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="45fehlingsatoflask">
+	<TEXT ID="45fehlingsatoflask_one">
+	 	<TEXTVALUE>Pipette 20ml Fehling’s A and transfer it into a 250ml conical flask.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="46conicalflask20ml">
+	<TEXT ID="46conicalflask20ml_one">
+	 	<TEXTVALUE>Pipette 20ml Fehling’s A and transfer it into a 250ml conical flask.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="47pippetttholder2">
+	<TEXT ID="47pippetttholder2_one">
+	 	<TEXTVALUE>Using clean pipette, pipette 20ml Fehling’s B and that also transfer that into the same conical flask containing Fehling’s A.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="48fehlingsb">
+	<TEXT ID="48fehlingsb_one">
+	 	<TEXTVALUE>Using clean pipette, pipette 20ml Fehling’s B and that also transfer that into the same conical flask containing Fehling’s A.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="49fehlingsbclsup">
+	<TEXT ID="49fehlingsbclsup_one">
+	 	<TEXTVALUE>Using clean pipette, pipette 20ml Fehling’s B and that also transfer that into the same conical flask containing Fehling’s A.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="50conicalflask40ml">
+	<TEXT ID="50conicalflask40ml_one">
+	 	<TEXTVALUE>Using clean pipette, pipette 20ml Fehling’s B and that also transfer that into the same conical flask containing Fehling’s A.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="51conicalflasktaking">
+	<TEXT ID="51conicalflasktaking_one">
+	 	<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="52conicalflaskrotating">
+	<TEXT ID="52conicalflaskrotating_one">
+	 	<TEXTVALUE>Shake well for mixing these two solutions.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="53conicalflaskplacing">
+	<TEXT ID="53conicalflaskplacing_one">
+	 	<TEXTVALUE>Label it as “Fehling’s solution”.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="54pippetttholder3">
+	<TEXT ID="54pippetttholder3_one">
+	 	<TEXTVALUE>From that a small amount is taken using a clean pipette and the pipette is rinsed using that solution.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="55fehlingsslntaking">
+	<TEXT ID="55fehlingsslntaking_one">
+	 	<TEXTVALUE>From that a small amount is taken using a clean pipette and the pipette is rinsed using that solution.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="56fehlingsslnshaking">
+	<TEXT ID="56fehlingsslnshaking_one">
+	 	<TEXTVALUE>From that a small amount is taken using a clean pipette and the pipette is rinsed using that solution.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="57wastebeakerclsup">
+	<TEXT ID="57wastebeakerclsup_one">
+	 	<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="58fehlingssln20ml">
+	<TEXT ID="58fehlingssln20ml_one">
+	 	<TEXTVALUE>Pipette 20ml of this freshly prepared Fehling’s solution into a 250ml standard flask.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="59fehlingssln20mlclsup">
+	<TEXT ID="59fehlingssln20mlclsup_one">
+	 	<TEXTVALUE>Pipette 20ml of this freshly prepared Fehling’s solution into a 250ml standard flask.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="60waterfrmbeaker">
+	<TEXT ID="60waterfrmbeaker_one">
+	 	<TEXTVALUE>20ml distilled water were also pipetted and transferred into the same conical flask.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="61watertoconicalflask">
+	<TEXT ID="61watertoconicalflask_one">
+	 	<TEXTVALUE>20ml distilled water were also pipetted and transferred into the same conical flask.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="62conicalflaskAtaking">
+	<TEXT ID="62conicalflaskAtaking_one">
+	 	<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="63conicalflaskArotating">
+	<TEXT ID="63conicalflaskArotating_one">
+	 	<TEXTVALUE>Shake well.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="64burettestand">
+	<TEXT ID="64burettestand_one">
+	 	<TEXTVALUE>The solution is boiled gently over wire gauze up to 70°C.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="65burettestandbubble">
+	<TEXT ID="65burettestandbubble_one">
+	 	<TEXTVALUE>The solution is boiled gently over wire gauze up to 70°C.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="66glucosetoflask">
+	<TEXT ID="66glucosetoflask_one">
+	 	<TEXTVALUE>The standard glucose solution from the burette is run slowly (not more than 1ml at a time) into the boiling Fehling’s solution until the blue colour has completely disappeared and a red precipitate settles down.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="67Text">
+	<TEXT ID="67Text_one">
+	 	<TEXTVALUE>Detection of End Point Accurately.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="68pippetttholder4">
+	<TEXT ID="68pippetttholder4_one">
+	 	<TEXTVALUE>Pipette 20ml Fehling’s solution using a clean pipette into the 250ml conical flask.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="69fehlingssln20ml2">
+	<TEXT ID="69fehlingssln20ml2_one">
+	 	<TEXTVALUE>Pipette 20ml Fehling’s solution using a clean pipette into the 250ml conical flask.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="70fehlingssln20mlclsup2">
+	<TEXT ID="70fehlingssln20mlclsup2_one">
+	 	<TEXTVALUE>Pipette 20ml Fehling’s solution using a clean pipette into the 250ml conical flask.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="71waterfrmbeaker2">
+	<TEXT ID="71waterfrmbeaker2_one">
+	 	<TEXTVALUE>Pipette 20ml distilled water using a clean pipette and transfer into the same 250ml conical flask containing 20ml Fehling’s solution.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="72watertoconicalflask2">
+	<TEXT ID="72watertoconicalflask2_one">
+	 	<TEXTVALUE>Pipette 20ml distilled water using a clean pipette and transfer into the same 250ml conical flask containing 20ml Fehling’s solution.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="73conicalflaskBtaking">
+	<TEXT ID="73conicalflaskBtaking_one">
+	 	<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="74conicalflaskBrotating">
+	<TEXT ID="74conicalflaskBrotating_one">
+	 	<TEXTVALUE>Shake well for mixing.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="75conicalflaskBreplacing">
+	<TEXT ID="75conicalflaskBreplacing_one">
+	 	<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="76conicalflaskBtaking3">
+	<TEXT ID="76conicalflaskBtaking3_one">
+	 	<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="77glucoseadding">
+	<TEXT ID="77glucoseadding_one">
+	 	<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="78conicalflaskBreplacinng2">
+	<TEXT ID="78conicalflaskBreplacinng2_one">
+	 	<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="79conicalflaskBtaking4">
+	<TEXT ID="79conicalflaskBtaking4_one">
+	 	<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="80burettestand2">
+	<TEXT ID="80burettestand2_one">
+	 	<TEXTVALUE>The solution is boiled gently over wire gauze.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="81burettestandbubble2">
+	<TEXT ID="81burettestandbubble2_one">
+	 	<TEXTVALUE>The solution is boiled gently over wire gauze.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="82glucosetoflask2">
+	<TEXT ID="82glucosetoflask2_one">
+	 	<TEXTVALUE>Add glucose solution from the burette in one stretch into the boiling Fehling’s solution until it reaches the end point (Blue colour just fades).</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="83dropertaking">
+	<TEXT ID="83dropertaking_one">
+	 	<TEXTVALUE>To note the end point more accurately 2-3 drops of methylene blue indicator is added to Fehling’s solution.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="84methylentaking">
+	<TEXT ID="84methylentaking_one">
+	 	<TEXTVALUE>To note the end point more accurately 2-3 drops of methylene blue indicator is added to Fehling’s solution.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="85methlenetoflask">
+	<TEXT ID="85methlenetoflask_one">
+	 	<TEXTVALUE>To note the end point more accurately 2-3 drops of methylene blue indicator is added to Fehling’s solution.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="86droperreplacing">
+	<TEXT ID="86droperreplacing_one">
+	 	<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="87glucosetoflask3">
+	<TEXT ID="87glucosetoflask3_one">
+	 	<TEXTVALUE>Continue the titration till the blue colour completely disappears and the red precipitate is obtained. This is the accurate end point.</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="88result">
+	<TEXT ID="88result_one">
+	 	<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+<SCENE ID="89result2">
+	<TEXT ID="89result2_one">
+	 	<TEXTVALUE>notext</TEXTVALUE>
+	</TEXT>
+</SCENE>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</DATA>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
