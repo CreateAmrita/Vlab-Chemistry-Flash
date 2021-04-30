@@ -6,7 +6,7 @@ Virtual Lab Chemistry flash animations and simulations
 
 **Use the following steps to execute the **_Chemistry_** experiments.**
 
-1. Download Vlab-Flash-Chemistry experiments from [GitHub](https://github.com/CreateAmrita/Vlab-Chemistry-Flash)
+1. Download Vlab-Chemistry-Flash experiments from [GitHub](https://github.com/CreateAmrita/Vlab-Chemistry-Flash)
 
 2. Move the experiment folders in the root to **Template files/CHE/EXP** folder to execute the experiments.  See one example here: [GitHub](
 https://github.com/CreateAmrita/Vlab-Chemistry-Flash/tree/main/Template%20files)
