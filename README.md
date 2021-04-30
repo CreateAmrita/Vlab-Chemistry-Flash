@@ -13,4 +13,4 @@ https://github.com/CreateAmrita/Vlab-Chemistry-Flash/tree/main/Template%20files)
 
 3. Download the player [GitHub](https://www.adobe.com/support/flashplayer/debug_downloads.html)
 
-4. Drag or open the index.swf (swf may change like index.swf or main.swf or experimentname.swf) file in the experiment folder from the player to execute. https://github.com/CreateAmrita/Vlab-Chemistry-Flash/blob/main/Template%20files/CHE/EXP/Estimation_of_Glucose/index.swf
+4. Drag or open the index.swf (swf may change like index.swf or main.swf or experimentname.swf) file in the experiment folder from the player to execute. [GitHub](https://github.com/CreateAmrita/Vlab-Chemistry-Flash/blob/main/Template%20files/CHE/EXP/Estimation_of_Glucose/index.swf)
